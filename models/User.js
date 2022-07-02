@@ -2,30 +2,30 @@ const mongoose = require("mongoose");
 
 const UserSchema = new mongoose.Schema({
 	username: {
-		type: string,
+		type: String,
 		required: true,
 		min: 3,
 		max: 25,
 		unipue: true,
 	},
 	email: {
-		type: string,
+		type: String,
 		required: true,
 		max: 50,
 		unique: true
 	},
 	password: {
-		type: string,
+		type: String,
 		required: true,
 		min: 6,
 		max: 50,
 	},
 	profilePicture: {
-		type: string,
+		type: String,
 		default: "",
 	},
 	coverPicture: {
-		type: string,
+		type: String,
 		default: ""
 	},
 	followers: {
@@ -41,11 +41,11 @@ const UserSchema = new mongoose.Schema({
 		default: false,
 	},
 	desc: {
-		type: string,
+		type: String,
 		max: 70,
 	},
 	city: {
-		type: string,
+		type: String,
 		max: 50,
 	},
 },
@@ -53,3 +53,5 @@ const UserSchema = new mongoose.Schema({
 { timestamps: true }
 
 );
+
+module.exports = mongoose.model("User", UserSchema);
