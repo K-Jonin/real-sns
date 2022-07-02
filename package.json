@@ -1,0 +1,25 @@
+{
+  "name": "real-sns",
+  "version": "1.0.0",
+  "description": "real-sns",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-Jonin/real-sns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-Jonin/real-sns/issues"
+  },
+  "homepage": "https://github.com/K-Jonin/real-sns#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  }
+}
