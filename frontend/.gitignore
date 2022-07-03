@@ -27,3 +27,5 @@ public/assets/
 *.css
 
 dummyData.js
+
+.env
