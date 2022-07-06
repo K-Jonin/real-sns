@@ -1,12 +1,31 @@
-# real-sns
+# アプリ名
 
-##　使用したライブラリ
-・express
+real-sns
 
-・mongoose
+## 使用した技術
 
-・nodemon
+・React
 
-・helmet
+・MongoDB
 
-ip2ATRDHYmq0ovWG
+・Node.js
+
+・Postman
+
+## 開発背景
+
+フルスタックなアプリケーションを作成してみたいと思い作りました。
+
+## 機能
+
+・ユーザー登録
+
+・テキスト投稿
+
+・画像投稿
+
+・タイムライン表示
+
+・フォロー・フォロワー
+
+・いいね
